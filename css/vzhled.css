@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 40px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+}
+
+.header h1 {
+    font-size: 47px;
+    margin: 0;
+    color: #2c3e50;
+    letter-spacing: 1px;
+}
+
+.uzivatel_box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.uzivatel_box span {
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.uzivatel_box strong {
+    font-weight: bold;
+}
+
+.uzivatel_box button {
+    padding: 6px 14px;
+    background: #d32f2f;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.uzivatel_box button:hover {
+    background: #b71c1c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #2c3e50;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #000;
+}
+
+.nadpisy {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 4px;
+}
